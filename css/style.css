@@ -155,7 +155,7 @@ nav.navbar.fixed-to-top{
 
 header{
 	padding: 150px 0px 0px 0px;
-	height: 960px;
+	height: 900px;
 	background: url('../img/nepal.jpg');
 	background-color: white!important;
 	background-size: cover;
@@ -345,7 +345,7 @@ header .carousel-indicators li {
 /*	FEATURES
 /*-----------------------------------------------------------------------------------*/
 
-.features, .features2,{
+.features, .features2 {
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
@@ -476,8 +476,8 @@ header .carousel-indicators li {
 	
 	header{
 		padding-bottom: 50px;
-		min-height: 1000px;
-		height: 100%;
+		min-height: 800px;
+		height: 90%;
 	}
 	
 	.navbar-nav {
