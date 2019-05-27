@@ -85,9 +85,13 @@ header h1,
 }
 
 /*---- Background ----*/
-.features,
+.features, .features2,
 .detail .carousel-indicators .active {
 	background: #D2B48C;	
+}
+
+.features1 {
+	background: #fff;
 }
 	
 
@@ -341,18 +345,18 @@ header .carousel-indicators li {
 /*	FEATURES
 /*-----------------------------------------------------------------------------------*/
 
-.features{
+.features, .features2,{
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
 	color: black;
 }
 
-.features p {
+.features, .features2, p {
 	font-weight: 400;
 }
 
-.features h2{
+.features, .features2, h2{
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -377,6 +381,9 @@ header .carousel-indicators li {
 	font-size: 5em;
 }
 
+.timeline-Tweet-text {
+	font-size: 11pt !important;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	SOCIAL
 /*-----------------------------------------------------------------------------------*/
