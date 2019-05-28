@@ -68,6 +68,18 @@ button {
 	visibility: visible!important;
 }
 
+.features {
+	padding-top: 80px !important;
+}
+
+.features2 {
+	padding-top:80px !important;
+}
+
+.features1 {
+	padding-top:80px !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	KEY COLOR
 /*-----------------------------------------------------------------------------------*/
@@ -87,12 +99,21 @@ header h1,
 /*---- Background ----*/
 .features, .features2,
 .detail .carousel-indicators .active {
-	background: #D2B48C;	
+	background: #D2B48C;
 }
 
 .features1 {
 	background: #fff;
 }
+
+.top-bg{
+	background: #fff;
+}
+
+.top-bg p{
+    color:#3C3C3C;
+}
+
 	
 
 /*-----------------------------------------------------------------------------------*/
@@ -145,7 +166,8 @@ nav.navbar.fixed-to-top{
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "M PLUS Rounded 1c";
+	/*font-family: 'Roboto Condensed', sans-serif;*/
 }
 
 
@@ -155,8 +177,12 @@ nav.navbar.fixed-to-top{
 
 header{
 	padding: 150px 0px 0px 0px;
-	height: 900px;
-	background: url('../img/nepal.jpg');
+	height: 800px;
+	background: url('../img/waffl_re.png');
+	/*background: linear-gradient(90deg, rgba(100, 100, 100, .5) 50%, transparent 50%),
+              linear-gradient(rgba(100, 100, 100, .5) 50%, transparent 50% ) !important ;
+              background-color: #D2B48C !important;
+    background-size: 40px 40px !important;*/
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -345,18 +371,18 @@ header .carousel-indicators li {
 /*	FEATURES
 /*-----------------------------------------------------------------------------------*/
 
-.features, .features2 {
+.features, .features2, .features4 {
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
 	color: black;
 }
 
-.features, .features2, p {
+.features, .features2, .features4, p {
 	font-weight: 400;
 }
 
-.features, .features2, h2{
+.features, .features2, .features4, h2{
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -390,9 +416,10 @@ header .carousel-indicators li {
 
 .social{
 	overflow: hidden;
+	margin: 80px 0px 150px 0px;
 	padding: 80px 0px 150px 0px;
 	min-height: 350px;
-	background: url('../img/sea.jpg');
+	background: url('../img/waffl_re.png');
 	background-position: center top;
 	background-repeat: repeat-x;
 	color: white;
@@ -420,7 +447,7 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 .get-it{
-	padding: 100px 0px 160px 0px;
+	padding: 50px 0px 160px 0px;
 	text-align: center;
 }
 
@@ -483,6 +510,10 @@ header .carousel-indicators li {
 	.navbar-nav {
 		float: left;
 		text-align: left;
+}
+
+.logo {
+	width: 95%;
 }
 
 	
