@@ -520,6 +520,11 @@ header .carousel-indicators li {
 .twitter-timeline {
 	width: 95%;
 }
+
+ header p.lead{
+	font-size: 12px;
+	margin-top: 3em;
+ }
 	
 }
 
@@ -550,6 +555,10 @@ header, .social{
 
 .features .col-md-4 .col-md-6 {
 	margin-bottom: 60px;
+}
+
+.logo {
+	width: 98%;
 }
 
 }
@@ -597,8 +606,4 @@ header, .social{
     	color: white;
     }
 
-    header p.lead{
-	font-size: 12px;
-	margin-top: 3em;
-    }
 }
