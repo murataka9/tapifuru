@@ -547,7 +547,7 @@ header, .social{
 	font-size: 24px;
 }
 
-.features .col-md-4{
+.features .col-md-4 .col-md-6 {
 	margin-bottom: 60px;
 }
 
@@ -582,7 +582,7 @@ header, .social{
 		padding-top: 50px;
 	}
 	
-	.features col-md-4{
+	.features col-md-4, col-md-6 {
 		margin-bottom: 50px;
 	}
 	
