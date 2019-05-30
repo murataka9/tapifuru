@@ -35,7 +35,7 @@ p{
 }
 
 .lead{
-	font-weight: 300;
+	font-weight: 200;
 }
 
 button {
@@ -79,6 +79,7 @@ button {
 .features1 {
 	padding-top:80px !important;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	KEY COLOR
@@ -199,7 +200,7 @@ header h1{
 }
 
 header p.lead{
-	font-size: 36px;
+	font-size: 24px;
 }
 
 
@@ -594,5 +595,10 @@ header, .social{
         background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
         background-size: 98%;
     	color: white;
+    }
+
+    header p.lead{
+	font-size: 12px;
+	margin-top: 3em;
     }
 }
